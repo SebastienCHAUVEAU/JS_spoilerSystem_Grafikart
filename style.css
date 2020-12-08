@@ -1,0 +1,32 @@
+
+.spoiler-content{
+    display:inline-block;  
+    opacity:0;
+    transition : opacity 1s;
+  }
+  
+  .spoiler-content.visible{
+    display:block;
+    opacity:1;
+    font-weight: bold;
+    color : red;
+    
+  }
+  
+  .hidden-content{
+    display:inline-block;  
+    width:0;
+    height:auto;
+    opacity:0;
+    transition : opacity 1s;
+  }
+  
+  .hidden-content.visible{
+    display:inline-block;
+    width:auto;
+    height:auto;
+    opacity:1;
+    font-weight: bold;
+    color : green;
+    
+  }
